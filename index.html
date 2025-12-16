@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Mendes | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- SEÇÃO COM FOTOS -->
+    <section class="fotos" id="topo">
+        <!-- Container para as fotos -->
+        <div class="foto-container active" id="foto0">
+            <img src="fotos/foto1.jpeg" alt="Foto 1">
+        </div>
+        <div class="foto-container" id="foto1">
+            <img src="fotos/Foto2.jpeg" alt="Foto 2">
+        </div>
+        <div class="foto-container" id="foto2">
+            <img src="fotos/foto3.jpeg" alt="Foto 3">
+        </div>
+        <div class="foto-container" id="foto3">
+            <img src="fotos/foto4.jpeg" alt="Foto 4">
+        </div>
+        
+        <!-- Overlay moderno -->
+        <div class="overlay">
+            <div class="overlay-content">
+                <div class="logo">
+                    <span class="logo-icon">M</span>
+                    <h1 class="logo-text">Marcos Mendes</h1>
+                </div>
+                <div class="intro-text">
+                    <h2 class="typing-text">Estudante de Informática & Desenvolvedor</h2>
+                    <p class="subtitle">Apaixonado por tecnologia, aprendizado e inovação</p>
+                </div>
+                <div class="cta-buttons">
+                    <button class="btn-primary" onclick="irParaBaixo()">
+                        <i class="fas fa-user"></i> Sobre Mim
+                    </button>
+                    <a href="#contato" class="btn-secondary" style="display: none;">
+                        <i class="fas fa-envelope"></i> Contato
+                    </a>
+                </div>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Indicador de carregamento moderno -->
+        <div class="loader"></div>
+    </section>
+
+    <!-- SEÇÃO SOBRE MIM -->
+<section class="conteudo" id="conteudo">
+    <div class="container">
+        <div class="section-header">
+            <h2><i class="fas fa-user-graduate"></i> Sobre Mim</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <!-- GRADE COM OS 4 TÓPICOS LADO A LADO -->
+        <div class="topics-grid">
+            <!-- Minha Trajetória -->
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Minha Trajetória</h3>
+                <p>Nascido em Volta Redonda, minha infância foi vivida em Macaé, onde tive meus primeiros contatos com tecnologia através de aulas de robótica. Retornei a Volta Redonda, onde resido atualmente e curso o ensino técnico em Informática pela FAETEC.</p>
+            </div>
+            
+            <!-- Formação -->
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Formação</h3>
+                <p>Concluí o Ensino Fundamental II na Escola Nossa Senhora do Amparo (Barra Mansa). Atualmente no 2º ano do Ensino Médio Técnico em Informática na FAETEC, com previsão de conclusão em 2025.</p>
+            </div>
+            
+            <!-- Interesses & Hobbies -->
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Interesses & Hobbies</h3>
+                <p>Futebol, basquete, videogames, animes, filmes e séries. Sou fã das sagas Star Wars e Harry Potter (li todos os livros). Aprendizado rápido, especialmente em exatas, habilidade desenvolvida desde cedo com influência da minha mãe, que é professora.</p>
+            </div>
+            
+            <!-- Objetivos -->
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h3>Objetivos</h3>
+                <p>Busco estágio na área de tecnologia para aplicar meus conhecimentos, desenvolver novas habilidades e contribuir para projetos inovadores. Tenho especial interesse no Programa de Estágio da CSN pelo seu ambiente estruturado de aprendizado e desenvolvimento profissional.</p>
+            </div>
+        </div>
+        
+        <!-- O restante do seu conteúdo permanece aqui -->
+        <div class="personal-quote">
+            <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <p class="quote-text">"Se minha trajetória fosse um filme, eu diria que ele se chamaria 'O Eterno Aprendiz', pois acredito que sempre há algo novo a aprender e a descobrir ao longo da vida."</p>
+            <p class="quote-author">— Marcos Mendes</p>
+        </div>
+        
+        <div class="skills-section">
+            <h3><i class="fas fa-cogs"></i> Competências</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-name">Aprendizado Rápido</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Lógica de Programação</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Trabalho em Equipe</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Adaptabilidade</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 88%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            
+       
+        </div>
+    </section>
+
+ 
+
+    <footer id="contato">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-icon">M</span>
+                <h3>Marcos Mendes</h3>
+            </div>
+            <p class="footer-text">Estudante de Informática | Futuro Desenvolvedor | Eterno Aprendiz</p>
+            <div class="footer-social">
+                <a href="https://github.com/MarcosMendes642" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/marcos989l" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2025 Marcos Mendes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
